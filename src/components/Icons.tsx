@@ -1,0 +1,49 @@
+import React from 'react';
+
+export const CheckIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="47" height="48" viewBox="0 0 47 48" fill="none" {...props}>
+    <path d="M30.1094 17.3906C30.1094 17.3906 23.1034 24.8519 21.2969 30.6094L16.8906 26.2031M41.8594 24C41.8594 28.8692 39.9251 33.539 36.482 36.982C33.039 40.4251 28.3692 42.3594 23.5 42.3594C18.6308 42.3594 13.961 40.4251 10.518 36.982C7.07491 33.539 5.14063 28.8692 5.14062 24C5.14063 19.1308 7.07491 14.461 10.518 11.018C13.961 7.57491 18.6308 5.64063 23.5 5.64062C28.3692 5.64063 33.039 7.57491 36.482 11.018C39.9251 14.461 41.8594 19.1308 41.8594 24V24Z" stroke="inherit" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+)
+
+export const ArrowUpIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none" {...props}>
+    <path d="M11.5 15L16 10M16 10L20.5 15M16 10V23M16 4C19.3152 4 22.4946 5.31696 24.8388 7.66117C27.183 10.0054 28.5 13.1848 28.5 16.5C28.5 19.8152 27.183 22.9946 24.8388 25.3388C22.4946 27.683 19.3152 29 16 29C12.6848 29 9.50537 27.683 7.16117 25.3388C4.81696 22.9946 3.5 19.8152 3.5 16.5C3.5 13.1848 4.81696 10.0054 7.16117 7.66117C9.50537 5.31696 12.6848 4 16 4V4Z" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+)
+
+export const LightningIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" {...props}>
+    <path d="M18.5 3.5L5.5 16.5H13.5V28.5L26.5 15.5H18.5V3.5Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+)
+
+export const ChipIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" {...props}>
+    <path d="M11.5 7.5H9.5C8.96957 7.5 8.46086 7.71071 8.08579 8.08579C7.71071 8.46086 7.5 8.96957 7.5 9.5V11.5M11.5 7.5V3.5M11.5 7.5H20.5M20.5 7.5H22.5C23.0304 7.5 23.5391 7.71071 23.9142 8.08579C24.2893 8.46086 24.5 8.96957 24.5 9.5V11.5M20.5 7.5V3.5M11.5 28.5V24.5M20.5 28.5V24.5M24.5 11.5H28.5M24.5 11.5V20.5M24.5 20.5V22.5C24.5 23.0304 24.2893 23.5391 23.9142 23.9142C23.5391 24.2893 23.0304 24.5 22.5 24.5H9.5C8.96957 24.5 8.46086 24.2893 8.08579 23.9142C7.71071 23.5391 7.5 23.0304 7.5 22.5V20.5M24.5 20.5H28.5M7.5 20.5H3.5M7.5 20.5V11.5M7.5 11.5H3.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+)
+
+export const TerminalIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" {...props}>
+    <path d="M6.5 5.5L3.5 8L6.5 10.5M13.5 5.5L16.5 8L13.5 10.5M3.5 17.5V24.5C3.5 25.5609 3.92143 26.5783 4.67157 27.3284C5.42172 28.0786 6.43913 28.5 7.5 28.5H24.5C25.5609 28.5 26.5783 28.0786 27.3284 27.3284C28.0786 26.5783 28.5 25.5609 28.5 24.5V7.5C28.5 6.43913 28.0786 5.42172 27.3284 4.67157C26.5783 3.92143 25.5609 3.5 24.5 3.5H23.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+)
+
+export const ArrowRightIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" {...props}>
+    <path d="M9.75 4.75L13.25 8M13.25 8L9.75 11.25M13.25 8H2.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+)
+
+export const LogoIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" {...props}>
+    <path fillRule="evenodd" clipRule="evenodd" d="M7.05453 14.88V16.9455L2.10303 11.9925L3.13953 10.9635L7.05453 14.88ZM9.12003 16.9455H7.05453L12.006 21.897L13.041 20.865L9.12003 16.9455ZM20.865 13.0305L21.897 12L12.003 2.1015L10.971 3.1335L14.88 7.05H12.516L9.78603 4.323L8.75403 5.355L10.4535 7.0545H9.27003V14.7345H16.95V13.545L18.6495 15.2445L19.683 14.2125L16.95 11.481V9.117L20.865 13.032V13.0305ZM7.57053 6.534L6.53853 7.566L7.64703 8.6745L8.67903 7.6395L7.57053 6.534ZM16.3605 15.321L15.33 16.353L16.4385 17.4615L17.4705 16.4265L16.3605 15.321ZM5.35503 8.7495L4.32003 9.783L7.05303 12.513V10.449L5.35653 8.7495H5.35503ZM13.551 16.9455H11.4855L14.217 19.677L15.2505 18.6435L13.5525 16.9455H13.551Z" fill="white"/>
+  </svg>
+)
+
+export const LinkIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" {...props}>
+    <path d="M10.2913 3.54525C10.2343 3.48898 10.1664 3.44485 10.0918 3.41552C10.0173 3.3862 9.93753 3.37229 9.85743 3.37463H5.06531C4.87843 3.37788 4.74031 3.43638 4.63875 3.53794C4.40475 3.77194 4.4015 4.10344 4.62412 4.32607C4.67752 4.37974 4.74111 4.4222 4.81116 4.45095C4.8812 4.47969 4.95629 4.49414 5.032 4.49344L6.68462 4.50482L8.70775 4.41382L7.81156 5.20844L3.39156 9.62844C3.147 9.87219 3.147 10.2086 3.3875 10.4491C3.62475 10.6863 3.96031 10.6863 4.20487 10.4418L8.62487 6.02175L9.4195 5.12475L9.3285 7.14869L9.33906 8.8005C9.3384 8.8764 9.35295 8.95166 9.38183 9.02185C9.41072 9.09204 9.45336 9.15574 9.50725 9.20919C9.72987 9.43182 10.0614 9.42857 10.2954 9.19457C10.4021 9.08422 10.4608 8.93612 10.4587 8.78263V3.97588C10.4611 3.89654 10.4475 3.81753 10.4188 3.74355C10.39 3.66957 10.3467 3.60213 10.2913 3.54525Z" fill="white" fillOpacity="0.6"/>
+  </svg>
+)
