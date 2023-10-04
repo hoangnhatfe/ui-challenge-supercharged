@@ -1,4 +1,4 @@
-import './globals.css'
+import './globals.scss'
 import type { Metadata } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import Header from '@/components/Header'
