@@ -28,7 +28,7 @@ const Header: FC<HeaderProps> = ({}) => {
             <span></span>
           </button>
         </div>
-        <div className={cn("invisible fixed inset-0 p-8 pt-12 bg-gray-900 lg:visible lg:bg-transparent lg:static lg:p-0 lg:py-5 lg:flex lg:justify-between lg:items-center", {"visible": isMenuOpen})}>
+        <div className={cn("invisible opacity-0 transition-all duration-300 ease-out fixed inset-0 p-8 pt-12 bg-gray-900 lg:visible lg:opacity-100 lg:bg-transparent lg:static lg:p-0 lg:py-5 lg:flex lg:justify-between lg:items-center", {"visible opacity-100": isMenuOpen})}>
           <ul className="lg:flex lg:gap-8">
             <li>
               <NavLink 
